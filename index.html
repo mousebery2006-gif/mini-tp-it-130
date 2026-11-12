@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma première page - IPNET IT130</title>
+  <style>
+    :root {
+      --ink: #14202e;
+      --muted: #55657a;
+      --accent: #0f62fe;
+      --line: #dde4ee;
+      --paper: #ffffff;
+      --bg: #f4f7fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+    }
+
+    header {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 999px;
+      padding: 4px 12px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    section {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 28px 32px;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.15rem;
+    }
+
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li { margin-bottom: 6px; }
+
+    a { color: var(--accent); }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.875rem;
+      padding-top: 8px;
+    }
+
+    @media (max-width: 520px) {
+      header, section { padding: 22px; }
+      h1 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="tag">IPNET &middot; IT130</span>
+      <h1>Mohamadou Moustapha BARRY</h1>
+      <p class="subtitle">Ma première page Web, versionnée avec Git et publiée avec GitHub Pages.</p>
+    </header>
+
+    <section>
+      <h2>Présentation</h2>
+      <p>
+        Bienvenue sur ma page. Je suis étudiant en informatique et ce site marque
+        le début de mon parcours de développement Web. Il est hébergé gratuitement
+        grâce à GitHub Pages, directement depuis un dépôt Git.
+      </p>
+    </section>
+
+    <section>
+      <h2>Ce que je maîtrise déjà</h2>
+      <ul>
+        <li>Structurer une page avec HTML sémantique</li>
+        <li>Mettre en forme avec CSS (couleurs, espacements, responsive)</li>
+        <li>Initialiser un dépôt Git et enregistrer des commits</li>
+        <li>Publier un site statique sur GitHub Pages</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Prochaine étape</h2>
+      <p>
+        Ce projet va évoluer tout au long du semestre : nouvelles pages, styles
+        plus riches et interactions en JavaScript. Chaque modification sera
+        suivie avec Git, puis publiée en ligne.
+      </p>
+    </section>
+
+    <footer>
+      Page créée dans le cadre du cours IT130 &middot; 2026
+    </footer>
+  </div>
+</body>
+</html>
